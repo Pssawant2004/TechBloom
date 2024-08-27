@@ -1,0 +1,202 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: antiquewhite;
+}
+#login {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60vh;
+    width: 30vw;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(245, 245, 220, 0.53);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 30px rgb(0, 0, 0);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 147, 255, 0.4);
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+}
+
+#logfor {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#logfor label {
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+label a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    cursor: pointer;
+}
+
+#logfor input {
+    height: 5vh;
+    font-size: 2.5vh;
+    margin: 4px;
+    margin-bottom: 1rem;
+    background-color: #ffffff00;
+    border-top: none;
+    border-left: unset;
+    border-right: none;
+    border-bottom: 1px solid black;
+}
+#logfor button {
+    background-color: azure;
+    font-size: larger;
+    width: 10vw;
+    height: 5vh;
+    border: 1px solid black;
+    margin-left: 28%;
+    box-shadow: 4px 4px rgba(83, 77, 77, 0.447);
+    margin-bottom: 15px;
+}
+
+#logfor button:hover {
+    transform: scale(0.95);
+    box-shadow: 2px 2px rgba(83, 77, 77, 0.447);
+}
+
+#signin {
+    position: absolute;
+    display: none;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70vh;
+    width: 30vw;
+    background-color: rgba(245, 245, 220, 0.53);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 30px rgb(0, 0, 0);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 147, 255, 0.4);
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+}
+
+#tpcg {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20%;
+}
+
+#cross:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#cross {
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
+
+nav {
+    z-index: 1;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    height: 3.6rem;
+    display: flex;
+    align-items: center;
+    padding: 0%;
+}
+
+nav h1 {
+    position: fixed;
+    cursor:default;
+    left: 5vw;
+    font-size: 1.5em; 
+    color: #d8d7d7; 
+    margin-right: 20px; 
+    font-weight: bold; 
+    letter-spacing: 0.1em; 
+    font-family: Arial, sans-serif;
+    text-transform: uppercase; 
+    text-shadow: 3px 3px 3px rgba(56, 48, 48, 0.555);
+}
+
+.lct {
+    width: 40%;
+    position: fixed;
+    right: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.lct a{
+    height: 80%;
+    padding: 6px;
+    font-size: 2.5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    color:#ccc;
+    transition: 0.2s linear;
+}
+.lct a:hover{
+    cursor: pointer;
+    color:#4c98ba;
+    border: 2px solid rgb(86, 71, 71);
+    border-radius: 10px;
+    text-decoration: underline;
+    background-color: #6462627e;
+    backdrop-filter: blur(30px);
+}
+.allcnt {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.795));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(235, 206, 206);
+    text-shadow: #333;
+    text-justify: inter-ideograph;
+    font-family: Georgia;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+#crtpst {
+    height: 5vh;
+    width: 9vw;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(238, 197, 167);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+#crtpst:hover {
+    /* height: 4.8vh;
+    width: 8.8vw; */
+    transform: scale(0.95);
+    background-color: rgb(175, 194, 140);
+    transition: 0.1s ease-in-out;
+    box-shadow: 4px 4px 3px rgba(138, 138, 138, 0.984);
+    cursor: pointer;
+}
+
+#bdy {
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 85vh;
+    transition: background-image 1s linear;
+}
+

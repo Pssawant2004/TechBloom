@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBloom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>TechBloom</h1>
+        <div class="lct">
+            <a>Home</a>
+            <a>blog</a>
+            <a>About</a>
+            <a>Contact</a>
+            <a id="sgnbtn" onclick="login1()">Login/Signup</a>
+        </div>
+    </nav>
+    <div id="login" style="display: none;">
+        <img src="images/pngwing.com (1).png" alt="" id="cross" width="10px" onclick="closelogin()">
+        <form action="submit" id="logfor">
+            <h1
+                style="font-size:xx-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;">
+                Log in</h1>
+            <label for="name">Email Id</label>
+            <input type="email">
+            <label for="passward">Passward</label>
+            <input type="text">
+            <button>Submit</button>
+        </form>
+        <label id="tpcg">Don't have an account <a onclick="signin1()">Creat account</a> </label>
+    </div>
+    <div id="signin" style="display: none;">
+        <img src="images/pngwing.com (1).png" alt="" id="cross" width="10px" onclick="closelogin()">
+        <form action="submit" id="logfor">
+            <h1
+                style="font-size: xx-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;">
+                Sign in</h1>
+            <label for="name">Name</label>
+            <input type="text">
+            <label for="name">Email Id</label>
+            <input type="email">
+            <label for="passward">Passward</label>
+            <input type="password">
+            <button>Submit</button>
+            <label id="tpcg">Already have an account <a onclick="login1()">Log in</a> </label>
+        </form>
+    </div>
+    <div id="bdy">
+        <div class="allcnt">
+            <!-- <button id="crtpst">Creat a Post</button> -->
+            <h1 class="tagline">Share Your Voice with the World</h1> <!-- Tagline/Slogan -->
+            <button id="crtpst">Create a Post</button>
+            <h5 class="welcome-message">Welcome to TechBloom Start sharing your thoughts and stories today.</h5>
+            <h6 class="cta-text" style="margin-top: -2rem;">Begin your blogging journey now.</h6>
+        </div>
+    </div>
+   
+    
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
